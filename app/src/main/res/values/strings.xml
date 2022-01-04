@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PortfolioTarasov</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Сергей Тарасов</string>
+    <string name="nav_header_subtitle1">Аndroid-разработчик</string>
+    <string name="nav_header_subtitle2">telegram: @sergio994350</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_about_me">Обо мне</string>
+    <string name="menu_my_education">Образование</string>
+    <string name="menu_my_work">Работа</string>
+    <string name="menu_my_plans">Мои планы</string>
+    <string name="menu_my_contacts">Контакты</string>
+</resources>

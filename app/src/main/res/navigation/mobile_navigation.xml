@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/about_me">
+
+    <fragment
+        android:id="@+id/about_me"
+        android:name="com.sergio994350.portfoliotarasov.ui.about.AboutMeFragment"
+        android:label="@string/menu_about_me"
+        tools:layout="@layout/fragment_aboutme" />
+
+    <fragment
+        android:id="@+id/my_education"
+        android:name="com.sergio994350.portfoliotarasov.ui.education.EducationFragment"
+        android:label="@string/menu_my_education"
+        tools:layout="@layout/fragment_education" />
+
+    <fragment
+        android:id="@+id/my_work"
+        android:name="com.sergio994350.portfoliotarasov.ui.work.WorkFragment"
+        android:label="@string/menu_my_work"
+        tools:layout="@layout/fragment_work" />
+
+    <fragment
+        android:id="@+id/my_plans"
+        android:name="com.sergio994350.portfoliotarasov.ui.plans.PlansFragment"
+        android:label="@string/menu_my_plans"
+        tools:layout="@layout/fragment_plans" />
+
+    <fragment
+        android:id="@+id/my_contacts"
+        android:name="com.sergio994350.portfoliotarasov.ui.contacts.ContactsFragment"
+        android:label="@string/menu_my_contacts"
+        tools:layout="@layout/fragment_contacts" />
+
+</navigation>
